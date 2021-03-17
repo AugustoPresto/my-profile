@@ -47,7 +47,6 @@ a:visited {
   text-align: center;
 }
 
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -68,6 +67,39 @@ ul li {
   filter: opacity(0.50);
 }
 
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 44px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  .card-white {
+    width: 680px;
+    margin: 16px auto;
+    padding: 2px 24px 32px 24px;
+  }
+
+  #profile-picture {
+    width: 260px;
+    height: 260px;
+  }
+
+  #pink-button {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .socials {
+    font-size: 48px;
+  }
+}
+
 @media (max-width: 540px) {
   body {
    font-size: 14px;
@@ -80,14 +112,14 @@ ul li {
   #profile-picture {
     width: 180px;
     height: 180px;
- }
+  }
 
   h2 {
     font-size: 18px;
   }
   
   .card-white {
-    width: 300px;
+    width: 280px;
   }
 
   .socials {
