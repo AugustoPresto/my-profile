@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+#profile-picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#pink-button {
+  background-color: #c30062;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+#pink-button:hover {
+  background-color: white;
+  color: #c30062;
+}
+
+.card-white {
+  width: 600px;
+  margin: 24px auto;
+  padding: 4px 32px 32px 32px;
+  box-shadow: 2px 2px 3px rgb(200,200,200);
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.socials {
+  color: black;
+  font-size: 40px;
+  margin: 4px 16px;
+  transition: 0.2s;
+}
+
+.socials:hover {
+  filter: opacity(0.50);
+}
+
+@media (max-width: 540px) {
+  body {
+   font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #profile-picture {
+    width: 180px;
+    height: 180px;
+ }
+
+  h2 {
+    font-size: 18px;
+  }
+  
+  .card-white {
+    width: 300px;
+  }
+
+  .socials {
+    font-size: 30px;
+  }
+}
